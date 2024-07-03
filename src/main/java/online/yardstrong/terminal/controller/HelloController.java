@@ -1,4 +1,4 @@
-package online.yardstrong.toolkit.terminal.controller;
+package online.yardstrong.terminal.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

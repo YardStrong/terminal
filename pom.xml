@@ -41,6 +41,14 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -61,7 +69,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                online.yardstrong.toolkit.terminal/online.yardstrong.toolkit.terminal.TerminalApp
+                                online.yardstrong.toolkit.terminal/online.yardstrong.terminal.TerminalApp
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
