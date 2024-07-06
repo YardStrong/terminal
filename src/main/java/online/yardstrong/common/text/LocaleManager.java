@@ -12,7 +12,7 @@ public class LocaleManager {
     private static final String RESOURCE_BUNDLE_NAME = "i18n/messages";
 
     static {
-        changeLanguage(Locale.of("en", "US"));
+        changeLanguage(Locale.getDefault());
     }
 
     /**
